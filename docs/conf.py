@@ -6,7 +6,6 @@
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
-project = 'VocalPy'
 copyright = '2024, David Nicholson'
 author = 'David Nicholson'
 
@@ -14,6 +13,7 @@ author = 'David Nicholson'
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
 extensions = [
+    'myst_parser',
     'sphinx.ext.autodoc',
     'sphinx.ext.autosummary',
     'sphinx.ext.coverage',
@@ -31,6 +31,7 @@ extensions = [
 ]
 
 templates_path = ['_templates']
+source_suffix = ['.rst', '.md']
 exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 
 
@@ -38,5 +39,24 @@ exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 # -- Options for HTML output -------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
 
-html_theme = 'pdyata_sphinx_theme'
+html_title = ""
+html_theme = 'pydata_sphinx_theme'
+html_theme_options = {
+    "logo": {
+        "text": "",
+        "image_light": "",
+        "image_dark": "",
+    },
+    "secondary_sidebar_items": [],
+}
+html_sidebars = {
+  "index": [],
+}
+
 html_static_path = ['_static']
+
+myst_enable_extensions = [
+    "colon_fence",
+    "html_admonition",
+    "html_image",
+]
