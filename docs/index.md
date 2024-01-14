@@ -7,6 +7,13 @@ and a set of interoperable packages.
 The goal of the community is to build and sustain
 a growing base of users, maintainers, and developers.
 
+
+
+:::{card} Join our forum!
+:text-align: center
+{material-regular}`forum;2em` {bdg-link-primary-line}`forum.vocalpy.org<https://forum.vocalpy.org>`
+:::
+
 :::::{grid} 1 1 3 3
 
 ::::{grid-item}
