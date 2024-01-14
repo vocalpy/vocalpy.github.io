@@ -7,23 +7,23 @@ name = "vocalpy_site"
 authors = [{name = "David Nicholson", email = "nickledave@users.noreply.github.com"}]
 license = {file = "LICENSE"}
 classifiers = ["License :: OSI Approved :: MIT License"]
-dynamic = ["version", "description"]
+version = "0.1"
+description = "dummy package just so site can build"
 
 [project.urls]
 Home = "https://github.com/vocalpy/vocalpy_site"
 
 [project.optional-dependencies]
 doc = [
-    "myst >=1.0.4",
+    "myst-parser >=2.0.0",
     "pydata-sphinx-theme >=0.15.1",
     "Sphinx >=7.2.6",
     "sphinx-autobuild >= 2021.3.14",
-    "sphinx-book-theme >=0.3.2",
     "sphinx-copybutton >=0.4.0",
     "sphinx-design >=0.2.0",
     "sphinxext-opengraph  >=0.5.1",
     "sphinx-tabs >= 3.3.1",
 ]
 dev = [
-    "vocalpy[doc]"
+    "vocalpy_site[doc]"
 ]
