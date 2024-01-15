@@ -1,13 +1,15 @@
 # The VocalPy Community
 
 VocalPy is a software community for researchers studying
-how animals communicate with sound.
-It consists of a core Python package, VocalPy,
-and a set of interoperable packages.
-The goal of the community is to build and sustain
-a growing base of users, maintainers, and developers.
-
-
+acoustic communication in animals:
+from fly buzzes to human speech, and any other vocalizations you can think of,
+including bird songs, bat calls, dolphin whistles, and mouse squeaks.
+The software consists of a set of interopable Python packages
+built around a core library, also named VocalPy.
+Our goal is to build a sustainable community
+of users, maintainers, and developers of the software,
+that will better help us all understand how and why
+animals communicate with sound.
 
 :::{card} Join our forum!
 :text-align: center
