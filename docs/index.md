@@ -4,7 +4,7 @@ VocalPy is a software community for researchers studying
 acoustic communication in animals:
 from fly buzzes to human speech, and any other vocalizations you can think of,
 including bird songs, bat calls, dolphin whistles, and mouse squeaks.
-The software consists of a set of interopable Python packages
+The software consists of a set of interoperable Python packages
 built around a core library, also named VocalPy.
 Our goal is to build a sustainable community
 of users, maintainers, and developers of the software,
