@@ -18,7 +18,7 @@ animals communicate with sound.
 
 :::{card} Read our developer blog
 :text-align: center
-{material-regular}`blog;2em` {bdg-link-primary-line}`blog.vocalpy.org<https://blog.vocalpy.org/>`
+{material-regular}`rss_feed;2em` {bdg-link-primary-line}`blog.vocalpy.org<https://blog.vocalpy.org/>`
 :::
 
 :::::{grid} 1 1 3 3
